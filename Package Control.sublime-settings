@@ -1,0 +1,21 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Babel",
+		"Better CoffeeScript",
+		"GitGutter",
+		"Handlebars",
+		"MarkdownEditing",
+		"Package Control",
+		"PowerCursors",
+		"Pretty JSON",
+		"Sass",
+		"SublimeGit",
+		"SublimeLinter",
+		"SublimeLinter-jshint"
+	]
+}
