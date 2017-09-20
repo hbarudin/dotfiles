@@ -17,6 +17,7 @@
 		"Sass",
 		"SublimeGit",
 		"SublimeLinter",
-		"SublimeLinter-jshint"
+		"SublimeLinter-jshint",
+		"TrailingSpaces"
 	]
 }
