@@ -12,16 +12,6 @@ alias lein="envdir /Users/hbarudin/Google\ Drive/Engineering/Technology/env lein
 alias bone="cd /Users/hbarudin/Development/adaptly-bone"
 alias clj="cd /Users/hbarudin/Development/adaptly-clj"
 
-function be() {
-  [[ -f scripts/dev_start.sh ]] && ./scripts/dev_start.sh bundle exec $@ || bundle exec $@
-}
-function bers() {
-  [[ -f scripts/dev_start.sh ]] && ./scripts/dev_start.sh || be rails s
-}
-function berc() {
-  be rails c
-}
-
 export PATH="$HOME/.rbenv/bin:$HOME/bin:$PATH"
 
 export GOOGLE_DRIVE="/Users/hbarudin/Google Drive/Engineering/Technology/env"
@@ -40,6 +30,7 @@ alias gst="git status"
 alias grhh="git reset --hard head"
 alias gpdr="git push --dry-run"
 alias gpfdr="git push --force --dry-run"
+alias grom="git rebase origin/master"
 
 function gri() {
   git rebase -i HEAD~${1:?Missing number}
