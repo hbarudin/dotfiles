@@ -7,10 +7,12 @@
 	[
 		"Babel",
 		"Better CoffeeScript",
+		"FileDiffs",
 		"GitGutter",
 		"Handlebars",
 		"MarkdownEditing",
 		"Monokai Extended",
+		"Origami",
 		"Package Control",
 		"PowerCursors",
 		"Pretty JSON",
