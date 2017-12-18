@@ -1,4 +1,8 @@
 {
+	"added_words":
+	[
+		"Pinterest"
+	],
 	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
 	"font_size": 13,
 	"ignored_packages":
@@ -10,6 +14,7 @@
 		80
 	],
 	"show_definitions": false,
+	"spell_check": true,
 	"tab_size": 2,
 	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true

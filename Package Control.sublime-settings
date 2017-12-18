@@ -7,6 +7,9 @@
 	[
 		"Babel",
 		"Better CoffeeScript",
+		"Color Highlighter",
+		"DashDoc",
+		"EDN",
 		"FileDiffs",
 		"GitGutter",
 		"Handlebars",
