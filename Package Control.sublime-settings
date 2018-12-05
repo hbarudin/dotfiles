@@ -7,22 +7,25 @@
 	[
 		"Babel",
 		"Better CoffeeScript",
-		"Color Highlighter",
+		"BracketHighlighter",
+		"Color Highlight",
 		"DashDoc",
 		"EDN",
 		"FileDiffs",
 		"GitGutter",
+		"GitHubinator",
 		"Handlebars",
 		"MarkdownEditing",
+		"MarkdownPreview",
 		"Monokai Extended",
 		"Origami",
 		"Package Control",
+		"PackageResourceViewer",
+		"PlainTasks",
 		"PowerCursors",
 		"Pretty JSON",
 		"Sass",
 		"SublimeGit",
-		"SublimeLinter",
-		"SublimeLinter-jshint",
 		"TrailingSpaces"
 	]
 }

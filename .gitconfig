@@ -34,6 +34,6 @@
 [push]
   default = simple
 [core]
-  editor = subl -n -w
+	editor = code --wait
 [grep]
   lineNumber = true

@@ -1,12 +1,17 @@
 {
 	"added_words":
 	[
-		"Pinterest"
+		"Pinterest",
+		"Adaptly",
+		"Instagram",
+		"Facebook",
+		"instagram"
 	],
-	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
-	"font_size": 13,
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"font_size": 14,
 	"ignored_packages":
 	[
+		"Color Highlight",
 		"Vintage"
 	],
 	"rulers":
