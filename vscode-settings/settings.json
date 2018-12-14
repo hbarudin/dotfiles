@@ -1,0 +1,55 @@
+{
+    // WINDOW
+    "window.restoreWindows":"folders",
+    "window.zoomLevel": 0,
+
+    // EDITOR
+    "editor.minimap.enabled": false,
+    "editor.rulers": [ 80 ],
+    "editor.renderWhitespace": "none",
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.occurrencesHighlight": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.tabSize": 2,
+    "editor.find.seedSearchStringFromSelection": false,
+
+    // FILES
+    "files.associations": {
+        "*.hamlc": "haml"
+    },
+
+    // WORKBENCH
+    "workbench.statusBar.feedback.visible": false,
+    "workbench.colorTheme": "Monokai Pro",
+    "workbench.iconTheme": "Monokai Pro Icons",
+    // Check this for later: https://code.visualstudio.com/docs/getstarted/theme-color-reference
+    "workbench.colorCustomizations": {
+        // EDITOR
+        "editor.selectionHighlightBorder": "#78dce8",
+
+        // TERMINAL
+        // See also https://www.growingwiththeweb.com/2017/03/mastering-vscodes-terminal.html
+        "terminal.background" :"#000000",
+        "terminal.ansiBlue": "#2ea8e1",
+        "terminal.selectionBackground": "#fffb0073"
+    },
+
+
+    // EXTENSIONS
+    // "calva.autoConnect": false,
+    "gitlens.settings.mode": "advanced",
+    "todo.archive.sortByDate": true,
+    "githubPullRequests.hosts": [
+        {
+            "host": "https://github.com",
+            "username": "oauth",
+            "token": "system"
+        }
+    ],
+
+
+    // TERMINAL
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.shellArgs.linux": ["-l"]
+}

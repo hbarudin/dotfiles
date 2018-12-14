@@ -1,0 +1,80 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "cmd+e right",
+        "command": "workbench.action.newGroupRight"
+    },
+    {
+        "key": "cmd+e up",
+        "command": "workbench.action.newGroupAbove"
+    },
+    {
+        "key": "cmd+e down",
+        "command": "workbench.action.newGroupBelow"
+    },
+    {
+        "key": "cmd+e left",
+        "command": "workbench.action.newGroupLeft"
+    },
+    {
+        "key": "cmd+l",
+        "command": "expandLineSelection",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "cmd+i",
+        "command": "-expandLineSelection",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "shift+cmd+r",
+        "command": "workbench.files.action.showActiveFileInExplorer"
+    },
+    {
+        "key": "cmd+r cmd+t",
+        "command": "workbench.action.terminal.rename"
+    },
+    { 
+        "key": "cmd+y",        
+        "command": "workbench.action.focusFirstEditorGroup",
+        "when": "terminalFocus"
+    },
+    { 
+        "key": "cmd+y",        
+        "command": "workbench.action.terminal.focus",
+        "when": "editorFocus"
+    },
+    { 
+        "key": "cmd+y",        
+        "command": "workbench.action.terminal.focus",
+        "when": "explorerViewletFocus"
+    },
+    {
+        "key": "shift+cmd+y",
+        "command": "-workbench.debug.action.toggleRepl"
+    },
+    {
+        "key": "alt+cmd+y",
+        "command": "workbench.action.toggleMaximizedPanel"
+    },
+    {
+        "key": "cmd+k k",
+        "command": "workbench.action.terminal.kill",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+k down",
+        "command": "workbench.action.terminal.focusNext",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "shift+cmd+k",
+        "command": "workbench.action.terminal.clear",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+k",
+        "command": "-workbench.action.terminal.clear",
+        "when": "terminalFocus"
+    }
+]
