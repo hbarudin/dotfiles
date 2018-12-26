@@ -90,4 +90,6 @@
         "-l"
     ],
     "breadcrumbs.enabled": true,
+    "workbench.sideBar.location": "right",
+    "terminal.integrated.cursorBlinking": true,
 }
