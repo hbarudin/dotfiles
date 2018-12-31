@@ -31,6 +31,7 @@ alias grhh="git reset --hard head"
 alias gpdr="git push --dry-run"
 alias gpfdr="git push --force --dry-run"
 alias grom="git rebase origin/master"
+alias goback="git checkout -"
 alias branchesbydate="git for-each-ref --sort=committerdate refs/heads/ --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))'"
 
 function gri() {
