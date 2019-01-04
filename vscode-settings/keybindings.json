@@ -50,14 +50,6 @@
         "when": "explorerViewletFocus"
     },
     {
-        "key": "shift+cmd+y",
-        "command": "-workbench.debug.action.toggleRepl"
-    },
-    {
-        "key": "alt+cmd+y",
-        "command": "workbench.action.toggleMaximizedPanel"
-    },
-    {
         "key": "cmd+k k",
         "command": "workbench.action.terminal.kill",
         "when": "terminalFocus"
