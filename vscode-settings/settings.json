@@ -92,4 +92,6 @@
     "breadcrumbs.enabled": true,
     "workbench.sideBar.location": "right",
     "terminal.integrated.cursorBlinking": true,
+    "gitlens.views.repositories.files.layout": "list",
+    "diffEditor.renderSideBySide": false
 }
