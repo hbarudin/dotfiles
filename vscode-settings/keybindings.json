@@ -68,5 +68,9 @@
         "key": "cmd+k",
         "command": "-workbench.action.terminal.clear",
         "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+t d",
+        "command": "todo.views.2embedded.focus"
     }
 ]

@@ -9,7 +9,7 @@
     "editor.renderWhitespace": "none",
     "editor.hideCursorInOverviewRuler": true,
     "editor.occurrencesHighlight": false,
-    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.multiCursorModifier": "alt",
     "editor.tabSize": 2,
     "editor.find.seedSearchStringFromSelection": false,
 
@@ -19,8 +19,9 @@
     },
 
     // WORKBENCH
+    "workbench.sideBar.location": "right",
     "workbench.statusBar.feedback.visible": false,
-    "workbench.colorTheme": "Monokai Pro",
+    "workbench.colorTheme": "Monokai Dimmed",
     "workbench.iconTheme": "Monokai Pro Icons",
     // Check this for later: https://code.visualstudio.com/docs/getstarted/theme-color-reference
     "workbench.colorCustomizations": {
@@ -39,6 +40,7 @@
     // EXTENSIONS
     // "calva.autoConnect": false,
     "gitlens.settings.mode": "advanced",
+    "gitlens.views.repositories.files.layout": "list",
     "todo.archive.sortByDate": true,
     "todo.embedded.providers.ag.regex": "(?:#|//|/\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(TODO|FIXME|FIX|BUG|UGLY|HACK|NOTE|IDEA|REVIEW|DEBUG|OPTIMIZE|HB TODO)",
     "todo.embedded.providers.rg.regex": "(?:#|//|/\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(TODO|FIXME|FIX|BUG|UGLY|HACK|NOTE|IDEA|REVIEW|DEBUG|OPTIMIZE| HB TODO)",
@@ -89,9 +91,42 @@
     "terminal.integrated.shellArgs.linux": [
         "-l"
     ],
-    "breadcrumbs.enabled": true,
-    "workbench.sideBar.location": "right",
     "terminal.integrated.cursorBlinking": true,
-    "gitlens.views.repositories.files.layout": "list",
-    "diffEditor.renderSideBySide": false
+
+    "breadcrumbs.enabled": true,
+
+    "diffEditor.renderSideBySide": false,
+    "gitlens.menus": {
+        "editor": {
+            "blame": false,
+            "clipboard": true,
+            "compare": true,
+            "details": false,
+            "history": false,
+            "remote": false
+        },
+        "editorGroup": false,
+        "explorer": {
+            "clipboard": true,
+            "compare": true,
+            "history": true,
+            "remote": true
+        },
+        "scmGroup": {
+            "compare": true,
+            "openClose": true,
+            "stash": true,
+            "stashInline": true
+        },
+        "scmItem": {
+            "clipboard": true,
+            "compare": true,
+            "history": true,
+            "remote": true,
+            "stash": true
+        }
+    },
+    "calva.autoConnect": false,
+    "gitlens.statusBar.enabled": false,
+    "code-runner.clearPreviousOutput": true
 }
