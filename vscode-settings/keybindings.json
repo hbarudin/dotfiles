@@ -72,5 +72,21 @@
     {
         "key": "cmd+t d",
         "command": "todo.views.2embedded.focus"
+    },
+    {
+        "key": "cmd+e cmd+right",
+        "command": "workbench.action.moveEditorToRightGroup"
+    },
+    {
+        "key": "cmd+e cmd+left",
+        "command": "workbench.action.moveEditorToLeftGroup"
+    },
+    {
+        "key": "cmd+e cmd+up",
+        "command": "workbench.action.moveEditorToAboveGroup"
+    },
+    {
+        "key": "cmd+e cmd+down",
+        "command": "workbench.action.moveEditorToBelowGroup"
     }
 ]

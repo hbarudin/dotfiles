@@ -21,7 +21,7 @@
     // WORKBENCH
     "workbench.sideBar.location": "right",
     "workbench.statusBar.feedback.visible": false,
-    "workbench.colorTheme": "Monokai Dimmed",
+    "workbench.colorTheme": "Monokai",
     "workbench.iconTheme": "Monokai Pro Icons",
     // Check this for later: https://code.visualstudio.com/docs/getstarted/theme-color-reference
     "workbench.colorCustomizations": {
@@ -128,5 +128,9 @@
     },
     "calva.autoConnect": false,
     "gitlens.statusBar.enabled": false,
-    "code-runner.clearPreviousOutput": true
+    "code-runner.clearPreviousOutput": true,
+    "color-highlight.markRuler": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
