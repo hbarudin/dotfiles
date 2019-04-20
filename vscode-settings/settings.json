@@ -21,7 +21,7 @@
     // WORKBENCH
     "workbench.sideBar.location": "right",
     "workbench.statusBar.feedback.visible": false,
-    "workbench.colorTheme": "Monokai",
+    "workbench.colorTheme": "Monokai Pro",
     "workbench.iconTheme": "Monokai Pro Icons",
     // Check this for later: https://code.visualstudio.com/docs/getstarted/theme-color-reference
     "workbench.colorCustomizations": {
@@ -132,5 +132,8 @@
     "color-highlight.markRuler": false,
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "trailing-spaces.backgroundColor": "rgba(229, 52, 214, 1)",
+    "trailing-spaces.borderColor": "rgba(255,255,255,1)",
+    "trailing-spaces.includeEmptyLines": false
 }
