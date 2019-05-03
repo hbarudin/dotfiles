@@ -12,6 +12,8 @@
     "editor.multiCursorModifier": "alt",
     "editor.tabSize": 2,
     "editor.find.seedSearchStringFromSelection": false,
+    "editor.fontLigatures": true,
+    "editor.formatOnSave": true, // Magic when used w/ Prettier
 
     // FILES
     "files.associations": {
@@ -135,5 +137,6 @@
     },
     "trailing-spaces.backgroundColor": "rgba(229, 52, 214, 1)",
     "trailing-spaces.borderColor": "rgba(255,255,255,1)",
-    "trailing-spaces.includeEmptyLines": false
+    "trailing-spaces.includeEmptyLines": false,
+    "prettier.requireConfig": true
 }
