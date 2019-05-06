@@ -108,9 +108,9 @@
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>269 214 606 469 0 0 1680 1027 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>207 473 918 512 0 0 1680 1027 </string>
+	<string>300 446 918 514 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 450 717 577 0 0 1680 1027 </string>
+	<string>1046 16 570 475 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>369 122 570 475 0 0 1680 1027 </string>
 	<key>New Bookmarks</key>
@@ -709,7 +709,7 @@
 			<key>Screen</key>
 			<integer>-1</integer>
 			<key>Scrollback Lines</key>
-			<integer>1000</integer>
+			<integer>0</integer>
 			<key>Selected Text Color</key>
 			<dict>
 				<key>Blue Component</key>
@@ -3438,7 +3438,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-03-20T16:27:18Z</date>
+	<date>2019-05-02T15:50:25Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -7093,7 +7093,7 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.2.7</string>
+	<string>3.2.9</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>4</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
