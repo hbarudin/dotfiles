@@ -13,6 +13,8 @@
     "editor.tabSize": 2,
     "editor.find.seedSearchStringFromSelection": false,
     "editor.fontLigatures": true,
+    // "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
     "editor.formatOnSave": true, // Magic when used w/ Prettier
 
     // FILES
