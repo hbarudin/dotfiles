@@ -1,7 +1,6 @@
 {
     // WINDOW
-    "window.restoreWindows":"folders",
-    "window.zoomLevel": 0,
+    "window.restoreWindows": "folders",
 
     // EDITOR
     "editor.minimap.enabled": false,
@@ -140,5 +139,15 @@
     "trailing-spaces.backgroundColor": "rgba(229, 52, 214, 1)",
     "trailing-spaces.borderColor": "rgba(255,255,255,1)",
     "trailing-spaces.includeEmptyLines": false,
-    "prettier.requireConfig": true
+    "prettier.requireConfig": true,
+    "calva.fmt.indentation": false,
+    "calva.fmt.formatAsYouType": false,
+    "calva.fmt.insertMissingWhitespace": false,
+    "calva.fmt.removeTrailingWhitespace": false,
+    "calva.fmt.removeSurroundingWhitespace": false,
+    "clojure.format.enable": false,
+    "extensions.ignoreRecommendations": false,
+    "vscode_custom_css.imports": ["file:///Users/hbarudin/Development/dotfiles/synthwave84.css"],
+    "vscode_custom_css.policy": true,
+    "window.zoomLevel": 0
 }
