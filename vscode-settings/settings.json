@@ -140,5 +140,6 @@
     "trailing-spaces.backgroundColor": "rgba(229, 52, 214, 1)",
     "trailing-spaces.borderColor": "rgba(255,255,255,1)",
     "trailing-spaces.includeEmptyLines": false,
-    "prettier.requireConfig": true
+    "prettier.requireConfig": true,
+    "extensions.ignoreRecommendations": false
 }
