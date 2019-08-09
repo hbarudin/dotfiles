@@ -1,4 +1,3 @@
-. ~/Development/dockerfiles/scripts/aliases.sh
 [[ -f `brew --prefix 2>/dev/null`/etc/bash_completion ]] && . `brew --prefix`/etc/bash_completion
 
 if [ -f "/usr/local/opt/bash-git-prompt/share/gitprompt.sh" ]; then
