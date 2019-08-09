@@ -88,5 +88,9 @@
     {
         "key": "cmd+e cmd+down",
         "command": "workbench.action.moveEditorToBelowGroup"
+    },
+    {
+        "key": "cmd+k cmd+o",
+        "command": "workbench.action.openWorkspace"
     }
 ]

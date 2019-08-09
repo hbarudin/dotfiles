@@ -1,7 +1,6 @@
 {
     // WINDOW
-    "window.restoreWindows":"folders",
-    "window.zoomLevel": 0,
+    "window.restoreWindows": "folders",
 
     // EDITOR
     "editor.minimap.enabled": false,
