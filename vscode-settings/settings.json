@@ -24,7 +24,7 @@
     // WORKBENCH
     "workbench.sideBar.location": "right",
     "workbench.statusBar.feedback.visible": false,
-    "workbench.colorTheme": "Monokai Pro",
+    "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
     "workbench.iconTheme": "Monokai Pro Icons",
     // Check this for later: https://code.visualstudio.com/docs/getstarted/theme-color-reference
     "workbench.colorCustomizations": {
@@ -140,5 +140,14 @@
     "trailing-spaces.borderColor": "rgba(255,255,255,1)",
     "trailing-spaces.includeEmptyLines": false,
     "prettier.requireConfig": true,
-    "extensions.ignoreRecommendations": false
+    "extensions.ignoreRecommendations": false,
+    "workbench.activityBar.visible": false,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "window.zoomLevel": 0,
+    "workbench.startupEditor": "newUntitledFile"
 }
