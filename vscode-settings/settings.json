@@ -25,7 +25,7 @@
     "workbench.sideBar.location": "right",
     "workbench.statusBar.feedback.visible": false,
     "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
-    "workbench.iconTheme": "Monokai Pro Icons",
+    "workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
     // Check this for later: https://code.visualstudio.com/docs/getstarted/theme-color-reference
     "workbench.colorCustomizations": {
         // EDITOR
@@ -141,7 +141,7 @@
     "trailing-spaces.includeEmptyLines": false,
     "prettier.requireConfig": true,
     "extensions.ignoreRecommendations": false,
-    "workbench.activityBar.visible": false,
+    "workbench.activityBar.visible": true,
     "[html]": {
         "editor.defaultFormatter": "vscode.html-language-features"
     },
