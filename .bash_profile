@@ -1,5 +1,13 @@
 # Life things
+eval "$(rbenv init -)"
+export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
+export PATH="${JAVA_HOME}/bin:${PATH}"
+
+[[ -f ~/.bashrc ]] && . ~/.bashrc
+
 [[ -f ~/.secrets ]] && . ~/.secrets
+
+export PATH="$HOME/.rbenv/bin:$HOME/bin:$PATH"
 
 export CLICOLOR=1
 source "$HOME/bin/git-completion.bash"
@@ -33,3 +41,8 @@ if [ -f "$HOME/google-cloud-sdk/completion.bash.inc" ]; then . "$HOME/google-clo
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# Setting PATH for Python 3.7
+# The original version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.7/bin:${PATH}"
+export PATH
