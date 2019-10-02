@@ -1,6 +1,8 @@
 # Life things
+[[ -f ~/.secrets ]] && . ~/.secrets
+
 export CLICOLOR=1
-source "/Users/hbarudin/bin/git-completion.bash"
+source "$HOME/bin/git-completion.bash"
 alias grep="grep --color=auto"
 alias up="cd .."
 alias findfile="git ls-files | grep -i"
@@ -22,13 +24,11 @@ function gri() {
 
 # Nomad Health things
 
-export GITHUB_ACCESS_TOKEN='85da48f5c7f958557392dcd3f73df6ca6175ac70'
-
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/hannahbarudin/google-cloud-sdk/path.bash.inc' ]; then . '/Users/hannahbarudin/google-cloud-sdk/path.bash.inc'; fi
+if [ -f "$HOME/google-cloud-sdk/path.bash.inc" ]; then . "$HOME/google-cloud-sdk/path.bash.inc"; fi
 
 # The next line enables shell command completion for gcloud.
-if [ -f '/Users/hannahbarudin/google-cloud-sdk/completion.bash.inc' ]; then . '/Users/hannahbarudin/google-cloud-sdk/completion.bash.inc'; fi
+if [ -f "$HOME/google-cloud-sdk/completion.bash.inc" ]; then . "$HOME/google-cloud-sdk/completion.bash.inc"; fi
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
