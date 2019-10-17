@@ -160,5 +160,10 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "window.zoomLevel": 0,
-    "workbench.startupEditor": "newUntitledFile"
+    "workbench.startupEditor": "newUntitledFile",
+    "todo-tree.general.tags": [
+        "TODO",
+        "FIXME",
+        "todo"
+    ]
 }
