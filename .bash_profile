@@ -46,3 +46,5 @@ export NVM_DIR="$HOME/.nvm"
 # The original version is saved in .bash_profile.pysave
 PATH="/Library/Frameworks/Python.framework/Versions/3.7/bin:${PATH}"
 export PATH
+
+alias nomad="cd ~/Development/nomad-flask"
