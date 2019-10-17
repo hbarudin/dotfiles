@@ -112,5 +112,9 @@
         "key": "cmd+\\",
         "command": "-workbench.action.terminal.split",
         "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+k cmd+b",
+        "command": "bookmarksExplorer.focus"
     }
 ]
