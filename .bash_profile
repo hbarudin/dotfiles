@@ -19,6 +19,7 @@ alias crep="clear; git grep -i"
 alias dotfiles="cd ~/Development/dotfiles"
 
 alias gst="git status"
+alias gco="git checkout"
 alias grhh="git reset --hard head"
 alias gpdr="git push --dry-run"
 alias gpfdr="git push --force --dry-run"
