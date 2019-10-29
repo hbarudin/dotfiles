@@ -48,4 +48,8 @@ export NVM_DIR="$HOME/.nvm"
 PATH="/Library/Frameworks/Python.framework/Versions/3.7/bin:${PATH}"
 export PATH
 
-alias nomad="cd ~/Development/nomad-flask"
+export NOMAD_FLASK_PATH="~/Development/nomad-flask"
+alias nomad="cd $NOMAD_FLASK_PATH"
+alias nomad-start="nomad && docker-compose up -d web && yarn assets-watch"
+alias nomad-start-admin="nomad && docker-compose up -d web && yarn admin-assets-watch"
+alias nomad-stop="cd $NOMAD_FLASK_PATH && docker-compose stop"
