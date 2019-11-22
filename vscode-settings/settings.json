@@ -28,7 +28,7 @@
     // WORKBENCH
     "workbench.sideBar.location": "right",
     "workbench.statusBar.feedback.visible": false,
-    "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
+    "workbench.colorTheme": "Dracula",
     "workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
     // Check this for later: https://code.visualstudio.com/docs/getstarted/theme-color-reference
     "workbench.colorCustomizations": {
@@ -159,11 +159,13 @@
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "window.zoomLevel": 0,
     "workbench.startupEditor": "newUntitledFile",
     "todo-tree.general.tags": [
         "TODO",
         "FIXME",
         "todo"
-    ]
+    ],
+    "bookmarks.saveBookmarksInProject": true,
+    "terminal.integrated.rendererType": "dom",
+    "window.zoomLevel": -1
 }

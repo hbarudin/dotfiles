@@ -116,5 +116,13 @@
     {
         "key": "cmd+k cmd+b",
         "command": "bookmarksExplorer.focus"
-    }
+    },
+    {
+        "key": "cmd+k g",
+        "command": "pr:github.focus"
+    },
+    {
+        "key": "alt+cmd+m",
+        "command": "bookmarks.toggleLabeled"
+    },
 ]
